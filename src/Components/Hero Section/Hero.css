@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,700&family=Poppins:wght@400&family=Source+Code+Pro:wght@500&display=swap');
+.bg{
+  
+    height:95vh;
+
+}
+
+.yellow{
+    color: rgb(255, 194, 0);
+    font-family: 'Source Code Pro', monospace;
+    font-size: 35px;
+    font-weight: 700;
+}
+.lh-4{
+    line-height: 30px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.button-main-new{
+    padding: 8px 25px;
+    font-size: 15px;
+    background-color: #ffc200;
+   color: #0b0b0b;
+   border:2px solid #ffc200;
+    text-align: center;
+    border-radius: 5px;
+   outline:none;
+   text-decoration: none;
+ 
+    font-weight:600;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.button-main-new a{
+    color:black;
+}
+.img-fluid{
+    width:250px;
+    height:250px;
+}
+.jump{
+    animation-name: jumping;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes jumping {
+   0%{
+   top:0px
+   }
+   100%{
+    top:-30px
+   }
+}
+
+@media screen and (max-width:600px) {
+    .navbar-nav{
+       flex-direction: row; 
+    }
+    .button-main{
+        display: none;
+    }
+    .d-flex.flex-column.pt-md-5.mt-md-4.col-md-6 {
+        padding-top: 14px;
+    }
+
+   
+}
+
+
+

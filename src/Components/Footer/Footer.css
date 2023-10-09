@@ -1,0 +1,46 @@
+.Footer{
+    background-color: rgb(0,0,0);
+}
+.contact-container{
+   background-color: #ffc200;
+   border-radius: 10px;
+   padding:20px 50px;
+   box-shadow: 0px 0px 27px #fff;
+}
+FontAwesomeIcon{
+    font-size: 22px;
+}
+
+.svg-inline--fa {
+    font-size: 30px;
+}
+.color-b{
+    color:black;
+}
+.copyright h3 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 30px;
+    display: block;
+    position: relative;
+}
+
+.copyright h3::before {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    content: "";
+    height: 2px;
+    width: 35vw;
+    top: 16px;
+    right: 41px;
+}
+.copyright h3::after {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    content: "";
+    height: 2px;
+    width: 35vw;
+    top: 16px;
+    left: 41px;
+}
