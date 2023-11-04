@@ -31,7 +31,7 @@ export default function Header() {
     <Nav.Item className="text-white nav-link">
   <a href='https://github.com/Parvez785' target='_blank'><FontAwesomeIcon icon={faGithub} style={{color: "#FFF",}} /></a>
     </Nav.Item>
-    <button className="button-main"><a href="#contact">Let's Connect</a></button>
+    <button className="button-main " id="Newbtn"><a href="#contact">Let's Connect</a></button>
     </Nav>
     </Navbar.Collapse>
     </Container>
