@@ -22,7 +22,7 @@ svg
 .button-main{
     padding: 12px 34px;
     font-size: 18px;
-    background-color: #0b0b0b !important;
+    background-color: #0b0b0b ;
 
    border:2px solid #ffc200 !important;
     text-align: center;
