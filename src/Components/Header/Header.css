@@ -32,7 +32,7 @@ svg
 }
 a{
     text-decoration: none;
-    color: #ffc200 !important;
+    color: #ffc200 ;
 }
 .ps-2.nav-item {
     padding-right: 23px;
