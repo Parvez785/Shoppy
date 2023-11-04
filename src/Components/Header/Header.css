@@ -17,7 +17,7 @@
 .button-main-new {
  color:black !important;
 }
-#Newbtn {
+#Newbtn a {
  color: #0b0b0b !important;}
 .button-main-new a, a {
     color: #000 !important;
