@@ -14,6 +14,12 @@
     font-family: 'Bodoni Moda', serif;
     font-size: 40px;
 }
+.button-main-new {
+ color:black !important;
+}
+.button-main-new a, a {
+    color: #000 !important;
+}
 svg
 {
     color:#007BFF;
