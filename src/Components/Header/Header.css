@@ -12,7 +12,7 @@
 .navbar-brand {
     margin-right: 35px;
     font-family: 'Bodoni Moda', serif;
-    font-size: 30px;
+    font-size: 40px;
 }
 svg
 {
@@ -22,9 +22,9 @@ svg
 .button-main{
     padding: 12px 34px;
     font-size: 18px;
-    background-color: #0b0b0b;
+    background-color: #0b0b0b !important;
 
-   border:2px solid #ffc200;
+   border:2px solid #ffc200 !important;
     text-align: center;
     border-radius: 5px;
    
@@ -32,7 +32,7 @@ svg
 }
 a{
     text-decoration: none;
-    color: #ffc200;
+    color: #ffc200 !important;
 }
 .ps-2.nav-item {
     padding-right: 23px;
